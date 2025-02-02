@@ -7,13 +7,14 @@ import { ImageCardProps } from '../interfaces/GalleryCards';
 
 const GalleryCards: React.FC = () => {
     return (
-        <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+        <Container maxWidth="lg" sx={{ marginBottom: '10rem', marginTop: '5rem' }}>
             <Typography
                 sx={{
-                    textTransform:'uppercase',
-                    padding:'2rem 0rem',
+                    textAlign: 'center',
+                    textTransform: 'uppercase',
+                    padding: '2rem 0rem',
                     color: '#887C68',
-                    fontWeight: 600,
+                    fontWeight: 400,
                     fontSize: '28px'
                 }}>
                 Communities we Manage
