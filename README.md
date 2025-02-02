@@ -49,10 +49,16 @@ export default tseslint.config({
 })
 ```
 
-UI Screenshots -
-Gallery :'/src/assets/output/gallery.png'
-Carousel :'/src/assets/output/carousel.png'
+## UI Screenshots
 
-Gallery Mobile View : '/src/assets/output/mobile_view_gallery.png'
-Carousel Mobile View : '/src/assets/output/mobile_view_carousel.png'
+### Gallery
+![Gallery](src/assets/output/gallery.png)
 
+### Carousel
+![Carousel](src/assets/output/carousel.png)
+
+### Gallery Mobile View
+![Gallery Mobile View](src/assets/output/mobile_view_gallery.png)
+
+### Carousel Mobile View
+![Carousel Mobile View](src/assets/output/mobile_view_carousel.png)
