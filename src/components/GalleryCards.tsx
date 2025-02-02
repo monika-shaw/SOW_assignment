@@ -12,10 +12,11 @@ const GalleryCards: React.FC = () => {
                 sx={{
                     textAlign: 'center',
                     textTransform: 'uppercase',
-                    padding: '2rem 0rem',
+                    padding: '3rem 0rem',
                     color: '#887C68',
                     fontWeight: 400,
-                    fontSize: '28px'
+                    fontSize: '28px',
+                    fontFamily: '"Martel Sans", serif'
                 }}>
                 Communities we Manage
             </Typography>
@@ -58,7 +59,8 @@ const CardGrid: React.FC<ImageCardProps> = (props) => {
                                 textAlign: 'justify',
                                 color: '#887C68',
                                 fontWeight: 400,
-                                fontSize: '1rem'
+                                fontSize: '1rem',
+                                fontFamily: '"Open Sans", serif'
                             }}
                         >
                             {description}
@@ -75,7 +77,8 @@ const CardGrid: React.FC<ImageCardProps> = (props) => {
                                 textAlign: 'justify',
                                 color: '#887C68',
                                 fontWeight: 400,
-                                fontSize: '22px'
+                                fontSize: '22px',
+                                fontFamily: '"Open Sans", serif'
                             }}
                         >
                             {title}

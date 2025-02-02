@@ -96,7 +96,8 @@ const Cards: React.FC<CarouselProps> = (props) => {
                                             textAlign: 'center',
                                             textTransform: 'uppercase',
                                             fontWeight: 400,
-                                            fontSize: '28px'
+                                            fontSize: '28px',
+                                            fontFamily: '"Martel Sans", serif'
                                         }}
                                     >{item.title}</Typography>
                                 </Box>
@@ -170,7 +171,8 @@ const Carousel = () => {
                     padding: '2rem 0rem',
                     color: '#887C68',
                     fontWeight: 400,
-                    fontSize: '28px'
+                    fontSize: '28px',
+                    fontFamily: '"Martel Sans", serif'
                 }}>
                 Our Services
             </Typography>
